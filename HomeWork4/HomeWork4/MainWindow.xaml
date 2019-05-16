@@ -1,0 +1,18 @@
+﻿<Window x:Class="HomeWork4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="92.735" Width="280.449">
+    <StackPanel>
+        <TextBox x:Name="uxZipcodeTextBox" Width="200" TextChanged="uxZipcodeTextBox_TextChanged">
+            
+        </TextBox>
+        <Button x:Name="uxSubmitButton" Width="200"> Submit
+            
+        </Button>
+    </StackPanel>
+        
+</Window>
